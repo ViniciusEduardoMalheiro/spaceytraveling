@@ -1,0 +1,46 @@
+.posts {
+    margin-top: 2rem;
+
+> a {
+    display: block;
+    }
+
+> a + a {
+    margin-top: 2rem;
+    }
+}
+
+.post {
+
+        margin-top: 0.5rem;
+
+    strong {
+        font-size: 1.75rem;
+        font-weight: bold;
+        color: var(--heading);
+        font-family: 'Inter'
+    }
+
+    > p {
+        margin-top: 0.5rem;
+        font-size: 1.05rem;
+        font-family: 'Inter';
+    }
+
+    ul {
+        list-style: none;
+        margin-top: 1.5rem;
+        display: flex;
+        gap: 1.5rem;
+        font-family: 'Inter';
+        font-weight: 400;
+    }
+}
+
+
+.loadButton {
+    background: transparent;
+    border: none;
+    margin-top: 3.5rem;
+    color: #FF57B2;
+}
